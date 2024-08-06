@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantai Sundak</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pantai Sundak</h1>
+    </header>
+    <main>
+        <section>
+            <img src="pantai-sundak.jpg" alt="Pemandangan Pantai Sundak" class="featured-image">
+            <p>Pantai Sundak adalah salah satu destinasi wisata yang menawan di daerah Gunungkidul, Yogyakarta. Pantai ini terkenal dengan keindahan alamnya yang memikat serta suasana yang tenang dan damai.</p>
+        </section>
+        <section>
+            <h2>Deskripsi Fisik</h2>
+            <p>Pantai Sundak memiliki pasir putih yang lembut, seolah-olah ingin mengajak pengunjung untuk berjalan-jalan di atasnya. Laut biru yang tenang di Pantai Sundak tampak seperti sedang tersenyum, menyambut setiap wisatawan yang datang. Di tepi pantai, terdapat batu karang yang menjulang, seolah-olah mereka adalah penjaga setia pantai ini.</p>
+        </section>
+        <section>
+            <h2>Flora dan Fauna</h2>
+            <p>Vegetasi di sekitar Pantai Sundak cukup beragam. Pohon-pohon kelapa berdiri tegak di sepanjang pantai, seperti prajurit yang melindungi kawasan ini dari terik matahari. Selain itu, burung-burung berkicau riang, menambah suasana alami dan damai di pantai ini.</p>
+        </section>
+        <section>
+            <h2>Kegiatan di Pantai</h2>
+            <p>Di Pantai Sundak, pengunjung dapat melakukan berbagai kegiatan menarik. Air laut yang jernih dan tenang menggoda pengunjung untuk berenang atau snorkeling, sementara angin sepoi-sepoi yang berhembus lembut mengajak untuk berjemur atau bersantai di tepi pantai.</p>
+        </section>
+        <section>
+            <h2>Legenda dan Sejarah</h2>
+            <p>Pantai Sundak juga memiliki cerita legenda yang menarik. Konon, nama "Sundak" berasal dari perkelahian antara seekor anjing (asú) dan landak (landak). Kisah ini menambah daya tarik tersendiri bagi pantai ini, memberikan nuansa magis yang menambah kekayaan budaya lokal.</p>
+        </section>
+        <section>
+            <h2>Penutup</h2>
+            <p>Pantai Sundak adalah tempat yang sempurna untuk melepas penat dan menikmati keindahan alam. Dengan segala pesonanya, pantai ini seakan-akan memanggil setiap jiwa yang lelah untuk datang dan merasakan ketenangan di sisinya.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pantai Sundak</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    background-color: white;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
